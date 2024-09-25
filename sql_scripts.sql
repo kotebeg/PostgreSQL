@@ -10,5 +10,9 @@ SELECT (999999999::SMALLINT);
 select (1.99999::decimal - 1.99998::decimal);
 
 -- select (1.99999::decimal - 1.99998::decimal);
+-- 131. Reminder on Character Types
 select(1.4::integer);   -- rounds numbers
 select(1.7::integer);   -- rounds numbers
+
+select('asasxasxasxasxa'::char(3));
+select('a'::char(5));
