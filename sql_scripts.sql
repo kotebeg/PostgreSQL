@@ -16,3 +16,6 @@ select(1.7::integer);   -- rounds numbers
 
 select('asasxasxasxasxa'::char(3));
 select('a'::char(5));
+-- varchar, automaticlyt removes extra charactrer
+select('asasxasxasxasxa'::varchar(5));
+select('a'::varchar(5));
