@@ -19,3 +19,9 @@ select('a'::char(5));
 -- varchar, automaticlyt removes extra charactrer
 select('asasxasxasxasxa'::varchar(5));
 select('a'::varchar(5));
+
+select('sdcsdcsdcsdcsdcesrvsecwe'::text);
+
+-- 132. Boolean Data Types
+select('n'::boolean);
+select('y'::boolean);
