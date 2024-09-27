@@ -25,3 +25,5 @@ select('sdcsdcsdcsdcsdcesrvsecwe'::text);
 -- 132. Boolean Data Types
 select('n'::boolean);
 select('y'::boolean);
+
+
