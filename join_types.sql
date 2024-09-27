@@ -18,3 +18,9 @@ left join users on users.id = photos.user_id
 select username,users.id as user_id_users,  url, photos.user_id as user_id_in_photos
 from users
 left join photos on photos.user_id = users.id 
+
+
+-- right joins
+select url, username
+from photos
+right join users on users.id = photos.user_id
