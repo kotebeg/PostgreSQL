@@ -24,3 +24,9 @@ left join photos on photos.user_id = users.id
 select url, username
 from photos
 right join users on users.id = photos.user_id
+
+
+-- full joun 
+select url, username
+from photos
+full join users on users.id = photos.user_id
