@@ -30,3 +30,7 @@ right join users on users.id = photos.user_id
 select url, username
 from photos
 full join users on users.id = photos.user_id
+
+
+-- Inner Join:
+-- List all photos along with the username of the user who posted each photo.
