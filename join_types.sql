@@ -39,17 +39,21 @@ full join users on users.id = photos.user_id
 -- List all photos along with the username of the user who posted each photo.
 
 SELECT photos.url, users.username
-FROM photos
-INNER JOIN users ON photos.user_id = users.id;
+FROM photos INNER JOIN users ON photos.user_id = users.id;
 
 
 -- Left Join:
 -- List all users and their photos, including users who haven't posted any photos.
 select  users.username, photos.url
-from users left join  photos on users.id = photos.user_id 
+from users left join  photos on users.id = photos.user_id; 
 
 -- Right Join:
 -- List all photos and their associated users, including photos that have no associated user (e.g., NULL user_id).
 
-SELECT photos.url, users.username
-from users right join  photos on users.id = photos.user_id 
+SELECT photos.url, users.username from users right join  photos on users.id = photos.user_id;
+
+
+-- Full Join:
+-- List all users and photos, including users without photos and photos without associated users.
+
+SELECT users.username, photos.url  from users full join  photos on users.id = photos.user_id;
