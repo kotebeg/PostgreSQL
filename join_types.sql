@@ -71,3 +71,12 @@ select photos.id, photos.url,  comments.id, comments.contents
 from comments join photos on photos.id = comments.photo_id
 
 where comments.user_id = photos.user_id
+
+
+-- 58. Three Way Joins
+--  add also user names, join three tables, 
+select photos.id, photos.url,  comments.id, comments.contents , users.id, users.username 
+
+from comments
+join photos on photos.id = comments.photo_id
+join users on users.id = comments.photo_id and users.id = photos.user_id;
