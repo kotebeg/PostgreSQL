@@ -64,9 +64,10 @@ SELECT users.username, photos.url  from users full join  photos on users.id = ph
 
 
 -- 57. Where with Join
+-- users can comment on photos that they posted. list the url/photos and contents for very photos/comments where this occured 
+--  so user comment own photoes
+select photos.id, photos.url,  comments.id, comments.contents 
 
-select photos.url, comments.contents 
-
-from comments join photos on photos.id = comments.id
+from comments join photos on photos.id = comments.photo_id
 
 where comments.user_id = photos.user_id
