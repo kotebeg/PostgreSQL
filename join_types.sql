@@ -57,3 +57,16 @@ SELECT photos.url, users.username from users right join  photos on users.id = ph
 -- List all users and photos, including users without photos and photos without associated users.
 
 SELECT users.username, photos.url  from users full join  photos on users.id = photos.user_id;
+
+
+-- Inner Join with Multiple Tables:
+-- List all comments with the photo URL and the username of the user who posted the comment..
+
+
+-- 57. Where with Join
+
+select photos.url, comments.contents 
+
+from comments join photos on photos.id = comments.id
+
+where comments.user_id = photos.user_id
