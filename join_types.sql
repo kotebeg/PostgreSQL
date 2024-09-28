@@ -91,3 +91,12 @@ join users on photos.user_id = users.id
 
 -- 6. Left Join with WHERE:
 -- List all users who have posted a comment, along with the comment contents.
+
+select users.username, comments.contents
+from users
+left join comments on users.id = comments.user_id
+where comments.contents is not null
+-- second solution
+select users.username, comments.contents
+from comments
+join users on users.id = comments.user_id
