@@ -100,3 +100,7 @@ where comments.contents is not null
 select users.username, comments.contents
 from comments
 join users on users.id = comments.user_id
+
+
+-- 7. Right Join with Aggregation:
+-- List each photo along with the total number of comments it has received (including photos with no comments).
