@@ -10,5 +10,7 @@
 
 
 ## **join_types.sql**
-- `create` new tables
-- `insert` data into tambles
+- `INNER JOIN` 
+- `LEFT JOIN` 
+- `RIGHT JOIN` 
+- `FULL JOIN` 
