@@ -14,3 +14,4 @@
 - `LEFT JOIN`
 - `RIGHT JOIN`
 - `FULL JOIN`
+- `JOIN` practice
