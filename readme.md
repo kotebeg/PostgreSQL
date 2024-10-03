@@ -21,3 +21,4 @@
 - `SELECT`; `ORDER BY `
 - `SELECT`; `ORDER BY `; `DESC`
 - `SELECT`; `ORDER BY `; `ASC`
+- `SELECT`; `ORDER BY `; col1, col2
