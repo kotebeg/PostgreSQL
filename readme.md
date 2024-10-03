@@ -5,8 +5,8 @@
 
 
 ## **create_tables.sql**
-- `create` new tables
-- `insert` data into tambles
+- `CREATE TABLE` new tables
+- `INSERT INTO` data into tambles
 
 
 ## **join_types.sql**
