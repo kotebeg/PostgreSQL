@@ -19,3 +19,5 @@
 
 ## **sorting.sql**
 - `SELECT`; `ORDER BY `
+- `SELECT`; `ORDER BY `; `DESC`
+- `SELECT`; `ORDER BY `; `ASC`
