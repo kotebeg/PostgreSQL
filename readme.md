@@ -1,7 +1,9 @@
 # PostgreSQL
 
-# **aggregation.sql**
+## **aggregation.sql**
 
 
 
-# **join_types.sql**
+## **create_tables.sql**
+- create new tables
+- insert data into tambles
