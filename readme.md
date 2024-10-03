@@ -15,3 +15,6 @@
 - `RIGHT JOIN`
 - `FULL JOIN`
 - `JOIN` practice
+
+
+## **sorting.sql**
