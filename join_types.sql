@@ -33,9 +33,6 @@ full join users on users.id = photos.user_id
 
 
 
-
-
-
 -- 57. Where with Join
 -- users can comment on photos that they posted. list the url/photos and contents for very photos/comments where this occured 
 --  so user comment own photoes
