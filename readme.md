@@ -1,7 +1,7 @@
 # PostgreSQL
 
 ## **aggregation.sql**
-
+- `SELECT`; `GROUP BY`
 
 
 ## **create_tables.sql**
