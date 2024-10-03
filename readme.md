@@ -10,7 +10,7 @@
 
 
 ## **join_types.sql**
-- `INNER JOIN` 
-- `LEFT JOIN` 
-- `RIGHT JOIN` 
-- `FULL JOIN` 
+- `INNER JOIN`
+- `LEFT JOIN`
+- `RIGHT JOIN`
+- `FULL JOIN`
