@@ -18,3 +18,4 @@
 
 
 ## **sorting.sql**
+- `SELECT`; `ORDER BY `
